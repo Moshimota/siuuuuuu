@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: 'Heebo', sans-serif;
+}
+
+.list {
+    display: flex;
+    gap: 30px;
+    padding-top: 30px;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    text-align: right;
+    color: #000000;
+    cursor: pointer;
+    margin-left: 200px;
+}
+
+list-item {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    text-align: right;
+    color: #000000;
+}
+
+.text_person {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    color: #21243D;
+}
+
+.text-all {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 50px;
+    color: #21243D;
+}
+
+.button_person {
+    font-family: 'Heebo';
+    font-weight: 500;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding: 5px 20px;
+    border: none;
+    background: #440351;
+    border-radius: 2px;
+    margin-top: 30px;
+}
+
+.person_image {
+    margin-left: 200px;
+    width: 100%;
+    border-radius: 50%;
+    width: 243px;
+    height: 243px;
+    left: 760px;
+    top: 210px;
+}
+
+header {
+    padding-top: 100px;
+    background: #FFFFFF;
+}
+
+section {
+    margin-top: 150px;
+}
+
+.h1111 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 38px;
+    color: #21243D;
+}
+
+.ppp1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #21243D
+}
+
+.ppp {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #21243D;
+}
+
+.record {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 60px;
+    display: flex;
+    align-items: flex-end;
+    color: #21243D;
+    margin-left: 100px;
+}
+
+
+.hayp {
+    background: #EDF7FA;
+    padding-top: 7px;
+    margin-top: 88px;
+    padding-bottom: 32px;
+    margin-bottom: 15px;
+}
+
+
+.paxta {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
+    border-radius: 4px;
+    width: 418px;
+    height: 285px;
+    margin-left: 100px;
+}
+
+
+.koko {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 38px;
+    color: #21243D;
+    margin-bottom: 20px;
+}
+
+
+.number {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #21243D;
+    margin-bottom: 21px;
+}
+
+
+.kalmar {
+    padding-left: 23px;
+    padding-top: 24px;
+}
+
+
+.juliy {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #21243D;
+}
+
+.link1 {
+    margin-top: 97px;
+    width: 246px;
+    height: 180px;
+    left: 146px;
+    top: 1088px;
+    border-radius: 6px;
+}
+
+.nnn {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 44px;
+    color: #21243D;
+}
+
+.mmm {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 60px;
+    color: #000000;
+}
+
+.ppp {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #21243D;
+}
+
+.domm {
+    border-radius: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: #8695A4;
+
+}
+
+.tayper {
+    border: 2px solid #120000;
+}
+
+.tagi {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.text-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 19px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #21243D;
+}
+
+
+.erlanbobo {
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+
+/* ------------------------------------------------------------------------responsive--------------------------------------------------------------- */
+
+/* 992 dan 1199 gacha */
+@media (max-width: 1199px) {}
+
+/* 768 dan 991 gacha */
+@media (max-width: 991px) {}
+
+/* 576 dan 767 gacha */
+@media (max-width: 767px) {}
+
+/* 0 dan 575 gacha */
+@media (max-width: 575px) {
+    .list {
+        display: flex;
+        gap: 40px;
+        padding-top: 30px;
+        font-family: 'Heebo';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 29px;
+        text-align: right;
+        color: #000000;
+        cursor: pointer;
+        margin-left: 0px;
+    }
+    header {
+        padding-top: 50px;
+        background: #FFFFFF;
+    }
+    .text_person {
+        text-align: center;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        color: #21243D;
+    }
+    .text-all {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        margin-top: 30px;
+        color: #21243D;
+        text-align: center;
+    }
+    .button_person {
+        margin-left: 21%;
+        font-family: 'Heebo';
+        font-weight: 500;
+        font-size: 20px;
+        color: #FFFFFF;
+        padding: 5px 20px;
+        border: none;
+        background: #440351;
+        border-radius: 2px;
+        margin-top: 30px;
+    }
+    .person_image {
+        margin-left: 10%;
+        width: 100%;
+        border-radius: 50%;
+        width: 243px;
+        height: 243px;
+        left: 760px;
+        top: 210px;
+        margin-top: 30px;
+    }
+    .paxta {
+        background: #FFFFFF;
+        box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
+        border-radius: 4px;
+        width: 100%;
+        height: 285px;
+        margin-left: 0;
+        text-align: center;
+    }
+    .juliy {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: #21243D;
+    }
+    .kalmar {
+        margin-top: 30px;
+        padding-left: 23px;
+        padding-top: 24px;
+    }
+    .tagi {
+        margin-top: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+}
